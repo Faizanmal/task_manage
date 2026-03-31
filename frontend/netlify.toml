@@ -1,0 +1,8 @@
+[build]
+  command = "echo 'Build is handled in CI. Skipping Netlify build step.'"
+  publish = "build/web"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
